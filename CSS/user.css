@@ -1,0 +1,320 @@
+/**
+ * @author: liang
+ */
+
+.liang_banner_container {
+}
+
+.liang_banner {
+    position: relative;
+    height: 370px;
+    /*background-size: cover;*/
+    background-position: center;
+}
+
+.liang_banner_content {
+   /* background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, .05));*/
+    height: 100%;
+}
+
+.liang_avatar_container {
+    bottom: -62px;
+    margin-left: -62px;
+    position: absolute;
+    left: 50%;
+    background-color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.liang_avatar_container img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.liang_info_container {
+    text-align: center;
+    background: #fff;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.liang_info_container > .top_button {
+    padding-top: 20px;
+    height: 32px;
+    text-align: right;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.liang_info_container > .nickname {
+    margin-top: 20px;
+    font-weight: 500;
+    color: #262626;
+    font-size: 26px;
+}
+
+.liang_info_container > .share {
+    margin-top: 20px;
+}
+
+.liang_info_container > .city {
+    font-size: 14px;
+    color: #828282;
+    padding: 10px 0;
+}
+
+.liang_info_container > .slogan {
+    padding: 10px 0;
+    font-size: 14px;
+    color: #393939;
+}
+
+.liang_info_container > .button {
+    margin-top: 10px;
+}
+
+.userwenzi .info {
+    color: #333;
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+.meiti {
+    padding: 0;
+    border-top: 0 solid #e8e8e8;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+.meiti .tubiao {
+    height: 24px;
+    text-align: center;
+}
+
+.meiti .tubiao .webicon {
+    display: inline-block;
+}
+
+.meiti a img {
+    width: 24px;
+    padding: 0 3px;
+}
+
+.index-tab {
+    background: #fff;
+    position: relative;
+    border-top: 1px solid #f0f0f0;
+    margin-top: 40px;
+}
+
+.index-tab .tab-list {
+    text-align: center;
+    min-width: 500px;
+}
+
+.index-tab .tab-list > li.select {
+    font-weight: 600;
+    position: relative;
+}
+
+.index-tab .tab-list > li {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 0 20px;
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    position: relative;
+    transition: .15s ease-in-out;
+    -webkit-transition: .15s ease-in-out;
+    -moz-transition: .15s ease-in-out;
+    -ms-transition: .15s ease-in-out;
+    -o-transition: .15s ease-in-out;
+}
+
+.index-tab .tab-list > li.select > a {
+    color: #262626;
+}
+
+.index-tab .tab-list > li.select > a {
+    font-weight: 600;
+}
+
+.index-tab .tab-list > li.select:after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    background-color: #e74949;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.liang_operate_container button, .liang_operate_container a {
+    width: 116px;
+}
+
+li.liang_background_tab {
+    width: 240px;
+    text-align: center
+}
+
+.set-bg-main {
+    overflow: hidden;
+    height: 319px;
+    overflow-y: auto;
+    background-color: #f7f7f7;
+}
+
+/*.set-bg-main::-webkit-scrollbar {*/
+/*    display: none;*/
+/*}*/
+
+/*.set-bg-main::-webkit-scrollbar-thumb {*/
+/*    background-color: rgba(0, 0, 0, 0);*/
+/*}*/
+
+.bgd-list {
+    margin-right: -25px;
+    *padding-bottom: 30px;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.bgd-list li {
+    cursor: pointer;
+    border: 2px solid #EFEFEF;
+    border-radius: 2px;
+    width: 153px;
+    height: 104px;
+    margin: 0 20px 20px 0;
+    float: left;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+
+.bgd-list li.selected {
+    border-color: #e74b3b;
+}
+
+.bgd-list li:nth-of-type(3n) {
+    margin-right: 0;
+}
+
+.bgd-list li img {
+    width: 100%;
+    height: 100%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: "";
+    clear: both;
+    height: 0;
+}
+
+.set-bg-main .set-bg-2 {
+    padding: 0 20px;
+}
+
+.set-bg-pre {
+    height: 116px;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 88px;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.set-bg-pre .bg-cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.4);
+}
+
+.set-bg-pre .loading-cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#id-upload-bg {
+    width: 100%;
+    height: 100%;
+}
+.set-bg-pre .bg-cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.4);
+}
+#id-upload-bg .bg-cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.4);
+}
+.dn {
+    display: none!important;
+}
+#file_upload_1-button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    background-color: rgba(0,0,0,0);
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 116px;
+}
+.uploadify-button {
+    background: #e74b3b;
+    border: none;
+    margin-left: 0;
+}
+.upload-tip {
+    font-size: 12px;
+    font-weight: 300;
+    color: #999;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.liang_no_data {
+    text-align: center;
+    font-size: 16px;
+    padding: 100px 0;
+}
+.liang_no_data > p {
+    margin: 20px 0;
+}
